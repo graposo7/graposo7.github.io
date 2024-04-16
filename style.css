@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Song+Myung&display=swap');
+
+p{
+    font-family: 'Mitr', sans-serif;
+    font-size: 20px;
+    color: #F6F6F6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    box-shadow: #fc0238;
+    height: 2900px;
+    background-image: url(imagens/matuebanner.jpeg);
+}
+
+header{
+    text-align: left;
+    
+
+}
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 2%;
+
+}
+
+.logo{
+    width: 50%;
+
+    
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+
+}
+
+.menu a{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 2%;
+    color:blanchedalmond;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.title_red{
+    color: #ff0000;
+    border: 2.5px solid #ff0000;
+    padding: 3px;
+}
+
+.apresentacao{
+    height: 1000px;
+    margin: 1% 0.25%;
+    display: flex;
+    background-color:  black;
+    color: #f80000;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao_conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tamanho_titulo{
+    font-size: 50px;
+    font-family: "Song Myung", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.tamanho_subtitulo{
+    font-size: 24px;
+}
+
+.button{
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.button_link{
+    background-color: #ff0303;
+    width: 250px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 20px 2%;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.apresentacao2{
+    height: 800px;
+    background-color: black;
+    margin: 1% 0.25%;
+}
+
+
+
+.apresentacao2_titulo{
+    color: #F6F6F6;
+    font-size: 50px;
+    text-align: center;
+    border-top: 50px;
+    font-family: "Song Myung", serif;
+}
+
+.title_any{
+    color: #c404ff;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.image1{
+    text-align: center;
+    font-family: "Song Myung", serif;
+    color: #fc00e7;
+}
+
+.image2{
+    text-align: center;
+    font-family: "Song Myung", serif;
+    color: #ff0000;
+}
+
+.image3{
+    text-align: center;
+    font-family: "Song Myung", serif;
+    color: #ff0101;
+}
+
+.image4{
+    text-align: center;
+    font-family: "Song Myung", serif;
+    color: #ff0000;
+}
+
+.apresentacao3{
+    font-family:"Song Myung", serif;
+    color: #F6F6F6;
+    background-color: black;
+    height: 900px;
+    margin: 1% 0.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section > h2{
+    color: #F6F6F6;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 550px;
+    gap: 6px;
+}
+
+form label{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+form input{
+    padding: 10px;
+    outline: none;
+    border: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+form textarea{
+    padding: 12px;
+    outline: none;
+    border: 0;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+form button{
+    padding: 15px;
+    font-size: 22.5px;
+    border: 2px solid;
+    background-color: #ff0000;
+    color: #F6F6F6;
+    font-family: "Song Myung", serif;
+}
+
+.contact_final{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 2%;
+    color:blanchedalmond;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.button_link2{
+    color: #ff0000;
+}
+ 
